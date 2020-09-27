@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.pubhub"
+        applicationId "ca.bcit.pubhub"
         minSdkVersion 27
         targetSdkVersion 30
         versionCode 1
