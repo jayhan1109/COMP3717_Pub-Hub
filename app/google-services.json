@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860965947435",
+    "firebase_url": "https://pubhub-d60dc.firebaseio.com",
+    "project_id": "pubhub-d60dc",
+    "storage_bucket": "pubhub-d60dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860965947435:android:9db49e69b7b11b688b826e",
+        "android_client_info": {
+          "package_name": "ca.bcit.pubhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860965947435-m1ihujfqjpmtgb3fjl9o161nnrng32ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.bcit.pubhub",
+            "certificate_hash": "bc3b0c49de0abf0cd9f66425350b4452a5648cd3"
+          }
+        },
+        {
+          "client_id": "860965947435-pb13pnj8juhe2419ct5al1ni6dkuai5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWjYp0CUDtG8HZvOogOBrDTq8A0Q3uxRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860965947435-pb13pnj8juhe2419ct5al1ni6dkuai5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

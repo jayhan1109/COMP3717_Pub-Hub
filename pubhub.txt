@@ -1,0 +1,30 @@
+Home -> Tab Navigation + Fragment (ListViewFragment) -> RoomActivity
+Category -> buttons (Intent => ContentActivity + Fragment(ListViewFragment))
+Content -> RoomActivity
+History -> ListViewFragment
+
+User(Firebase)
+- User ID - String
+- Username - String
+- History - Match ID (String)
+
+
+Category class
+- Category ID - String
+- Category Name - String
+- Cateogry Image - R.drawable.(image)
+
+Match class
+- Category ID - String
+- Match ID - String
+- Team1 Name - String
+- Team1 Logo - R.drawable.(image)
+- Team2 Name - String
+- Team2 Logo - R.drawable.(image)
+- Date - date
+
+HotMatch class
+- Match ID - String
+
+Room class
+- Match ID - String
