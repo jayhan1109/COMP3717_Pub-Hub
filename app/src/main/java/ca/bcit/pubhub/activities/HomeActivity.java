@@ -27,13 +27,10 @@ public class HomeActivity extends AppCompatActivity {
     public void checkCurrentUser() {
         // [START check_current_user]
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if (user != null) {
-            // User is signed in
-        } else {
+        if (user == null) {
             // No user is signed in
             startActivity(new Intent(this, LoginActivity.class));
         }
-        // [END check_current_user]
     }
 
     public void logoutClick(View view) {
