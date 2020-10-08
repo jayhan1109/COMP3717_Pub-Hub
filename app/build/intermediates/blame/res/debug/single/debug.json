@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -16,10 +20,6 @@
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -32,16 +32,8 @@
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_room.xml.flat",
-        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_room.xml"
-    },
-    {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category.xml.flat",
-        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_category.xml"
     },
     {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -52,12 +44,8 @@
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_content.xml.flat",
-        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_content.xml"
-    },
-    {
-        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
-        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_history.xml"
+        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_category.xml.flat",
+        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\fragment_category.xml"
     },
     {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -74,6 +62,10 @@
     {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_history.xml.flat",
+        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\fragment_history.xml"
     },
     {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",

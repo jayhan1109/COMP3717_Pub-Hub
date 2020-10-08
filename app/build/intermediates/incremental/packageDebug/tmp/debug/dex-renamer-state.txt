@@ -1,4 +1,4 @@
-#Wed Oct 07 18:24:10 JST 2020
+#Fri Oct 09 02:32:47 JST 2020
 base.0=C\:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
