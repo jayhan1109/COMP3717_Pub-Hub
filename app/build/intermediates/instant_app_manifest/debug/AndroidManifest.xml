@@ -25,10 +25,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ca.bcit.pubhub.activities.ContentActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.RoomActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.HistoryActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.CategoryActivity" />
         <activity android:name="ca.bcit.pubhub.activities.HomeActivity" />
         <activity android:name="ca.bcit.pubhub.activities.LoginActivity" >
             <intent-filter>
