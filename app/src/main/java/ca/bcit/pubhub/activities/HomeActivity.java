@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -34,6 +35,7 @@ public class HomeActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         checkCurrentUser();
+
         categoryFr = new CategoryFragment();
         historyFr = new HistoryFragment();
         homeFr = new HomeFragment();
@@ -41,9 +43,9 @@ public class HomeActivity extends FragmentActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.container, homeFr).commit();
 
         tabs = findViewById(R.id.tabs);
-        tabs.addTab(tabs.newTab().setText("친구"));
-        tabs.addTab(tabs.newTab().setText("채팅"));
-        tabs.addTab(tabs.newTab().setText("더보기"));
+        tabs.addTab(tabs.newTab().setText("Home"));
+        tabs.addTab(tabs.newTab().setText("Category"));
+        tabs.addTab(tabs.newTab().setText("History"));
 
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -69,19 +71,23 @@ public class HomeActivity extends FragmentActivity {
 
             }
         });
+
+
     }
+
 
     public void checkCurrentUser() {
         // [START check_current_user]
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
         if (user == null) {
             // No user is signed in
+            finish();
             startActivity(new Intent(this, LoginActivity.class));
         }
     }
 
-    public void logoutClick(View view) {
-        // [START auth_fui_signout]
+    public void logoutClick() {
         AuthUI.getInstance()
                 .signOut(this)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -89,9 +95,7 @@ public class HomeActivity extends FragmentActivity {
                         checkCurrentUser();
                     }
                 });
-        // [END auth_fui_signout]
     }
-
 
 }
 
