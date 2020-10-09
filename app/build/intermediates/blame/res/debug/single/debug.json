@@ -8,6 +8,10 @@
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_match_item_view.xml.flat",
+        "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\match_item_view.xml"
+    },
+    {
         "merged": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\CST\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },

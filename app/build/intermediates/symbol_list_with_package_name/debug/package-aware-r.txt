@@ -1790,6 +1790,7 @@ id button_resend_email
 id button_sign_in
 id cancel_action
 id cancel_button
+id categoryId
 id center
 id center_horizontal
 id center_vertical
@@ -1820,8 +1821,10 @@ id country_list
 id cross_device_linking_body
 id custom
 id customPanel
+id customlistfragment
 id cut
 id dark
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1920,6 +1923,7 @@ id logo
 id logoutBtn
 id main_tos_and_pp
 id masked
+id matchId
 id media_actions
 id message
 id microsoft_signin_button
@@ -2068,6 +2072,8 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id team1
+id team2
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2235,6 +2241,7 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
+layout match_item_view
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

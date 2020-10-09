@@ -1,9 +1,7 @@
 package ca.bcit.pubhub.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -11,15 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.firebase.ui.auth.AuthUI;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
 import ca.bcit.pubhub.R;
 import ca.bcit.pubhub.activities.HomeActivity;
-import ca.bcit.pubhub.activities.LoginActivity;
 
 public class HomeFragment extends Fragment {
 
