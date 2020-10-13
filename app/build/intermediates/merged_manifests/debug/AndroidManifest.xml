@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="27"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -24,6 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="ca.bcit.pubhub.activities.ChatActivity" />
         <activity android:name="ca.bcit.pubhub.activities.HomeActivity" />
         <activity android:name="ca.bcit.pubhub.activities.LoginActivity" >
             <intent-filter>
