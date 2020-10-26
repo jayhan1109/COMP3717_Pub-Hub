@@ -26,6 +26,7 @@ public class HomeFragment extends Fragment {
         Button btn_move_chat = view.findViewById(R.id.btn_move_chat);
         Button btn_move_chat2 = view.findViewById(R.id.btn_move_chat2);
 
+        // TODO: Send matchId with Intent
         btn_move_chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
