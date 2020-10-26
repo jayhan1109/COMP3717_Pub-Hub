@@ -12,6 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button" />
+    <Button
+        android:id="@+id/btn_move_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to chat"
+    />
+
+    <Button
+        android:id="@+id/btn_move_chat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move to chat2"
+        />
 
     <fragment
         android:id="@+id/customlistfragment"

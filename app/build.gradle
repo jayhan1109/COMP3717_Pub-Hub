@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 28
     buildToolsVersion "30.0.0"
 
     defaultConfig {
         applicationId "ca.bcit.pubhub"
         minSdkVersion 27
-        targetSdkVersion 30
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
@@ -37,7 +37,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:18.1.0'
     implementation "com.firebaseui:firebase-ui-auth:6.3.0"
     implementation 'com.google.android.material:material:1.2.1'
-
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
     repositories {
         mavenCentral()
     }
