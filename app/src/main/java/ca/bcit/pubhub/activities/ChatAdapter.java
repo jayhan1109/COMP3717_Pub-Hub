@@ -16,6 +16,7 @@ import java.util.List;
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> {
     private List<ChatData> mDataset;
     private String myName;
+    private String id;
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
     // you provide access to all the views for a data item in a view holder
@@ -33,10 +34,11 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public ChatAdapter(List<ChatData> myDataset, Context context, String myName) {
+    public ChatAdapter(List<ChatData> myDataset, Context context, String myName, String id) {
         mDataset = myDataset;
 //        Fresco.initialize(context);
         this.myName = myName;
+        this.id = id;
     }
 
     // Create new views (invoked by the layout manager)
@@ -59,7 +61,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
         holder.TextView_name.setText(chat.getName());
         holder.TextView_msg.setText(chat.getMsg());
         System.out.println(chat.getName() + "    "  + myName);
-        if(chat.getName().equals(this.myName)) {
+        if(chat.getId().equals(this.id)) {
             holder.TextView_name.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
             holder.TextView_msg.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
         } else {

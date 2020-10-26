@@ -24,11 +24,22 @@ public class HomeFragment extends Fragment {
 
         Button logoutBtn = view.findViewById(R.id.logoutBtn);
         Button btn_move_chat = view.findViewById(R.id.btn_move_chat);
+        Button btn_move_chat2 = view.findViewById(R.id.btn_move_chat2);
 
         btn_move_chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
+                i.putExtra("chatId", "helloWorld");
+                startActivity(i);
+            }
+        });
+
+        btn_move_chat2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
+                i.putExtra("chatId", "test");
                 startActivity(i);
             }
         });

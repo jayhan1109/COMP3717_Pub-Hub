@@ -1786,6 +1786,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_holder
 id btn_move_chat
+id btn_move_chat2
 id buttonPanel
 id button_continue
 id button_create

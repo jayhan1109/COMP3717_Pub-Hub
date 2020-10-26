@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -28,7 +30,9 @@ public class ChatActivity extends AppCompatActivity {
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
     private List<ChatData> chatList;
-    private String name = "admin2";
+    private String name;
+    private String id;
+    private String chatId;
     EditText EditText_chat;
     Button Button_send;
     DatabaseReference myRef;
@@ -38,8 +42,16 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        name = user.getEmail();
+        int iend = name.indexOf("@");
+        name = name.substring(0, iend);
+        id = user.getUid();
+
         Button_send = findViewById(R.id.Button_send);
         EditText_chat = findViewById(R.id.EditText_chat);
+        Bundle extra = getIntent().getExtras();
+        chatId = extra.getString("chatId");
 
         Button_send.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +61,7 @@ public class ChatActivity extends AppCompatActivity {
                     ChatData chat = new ChatData();
                     chat.setName(name);
                     chat.setMsg(msg);
+                    chat.setId(id);
                     myRef.push().setValue(chat);
                 }
             }
@@ -61,11 +74,11 @@ public class ChatActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         chatList = new ArrayList<>();
-        mAdapter = new ChatAdapter(chatList, ChatActivity.this, name);
+        mAdapter = new ChatAdapter(chatList, ChatActivity.this, name, id);
         recyclerView.setAdapter(mAdapter);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("message");
+        myRef = database.getReference("message/" + chatId);
 
 //        myRef.setValue("Hello, World!");
         myRef.addChildEventListener(new ChildEventListener() {
