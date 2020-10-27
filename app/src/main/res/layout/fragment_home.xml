@@ -13,6 +13,11 @@
         android:layout_height="wrap_content"
         android:text="Button" />
     <Button
+        android:id="@+id/btn_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"/>
+    <Button
         android:id="@+id/btn_move_chat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
