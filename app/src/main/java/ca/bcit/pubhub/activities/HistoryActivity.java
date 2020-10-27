@@ -21,6 +21,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import ca.bcit.pubhub.R;
@@ -51,11 +54,13 @@ public class HistoryActivity extends AppCompatActivity {
         historyList = new ArrayList<>();
         mAdapter = new HistoryAdapter(historyList, HistoryActivity.this);
         recyclerView.setAdapter(mAdapter);
+        myRef.orderByValue();
+
 
         myRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                History history = snapshot.getValue(History.class).;
+                History history = snapshot.getValue(History.class);
                 ((HistoryAdapter)mAdapter).addHistory(history);
             }
 
@@ -80,4 +85,5 @@ public class HistoryActivity extends AppCompatActivity {
             }
         });
     }
+
 }

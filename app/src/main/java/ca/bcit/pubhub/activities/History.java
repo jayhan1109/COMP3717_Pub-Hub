@@ -1,8 +1,6 @@
 package ca.bcit.pubhub.activities;
 
-import java.util.Date;
-
-public class History {
+public class History implements Comparable<History>{
     String matchID;
     String matchName;
     Object matchTime;
@@ -39,4 +37,12 @@ public class History {
     public void setHistoryTime(Object historyTime) {
         this.historyTime = historyTime;
     }
+
+    @Override
+    public int compareTo(History o) {
+        long left = (long) this.getHistoryTime();
+        long right = (long) o.getHistoryTime();
+        return (int) (right - left);
+    }
+
 }
