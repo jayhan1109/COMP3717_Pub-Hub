@@ -62,9 +62,6 @@ public class HomeFragment extends Fragment {
                 Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
                 i.putExtra("chatId", "helloWorld");
 
-                Date date = new Date();
-                Timestamp ts = new Timestamp(date.getTime());
-
                 History history = new History();
                 final String matchId = "helloWorld";
                 history.setMatchID(matchId);
@@ -99,9 +96,6 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
                 i.putExtra("chatId", "test");
-
-                Date date = new Date();
-                Timestamp ts = new Timestamp(date.getTime());
 
                 History history = new History();
                 final String matchId = "test";
