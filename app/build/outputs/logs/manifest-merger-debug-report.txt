@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.3.0] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/77d6481d544789b159f2afa2e3a47549/jetified-firebase-ui-auth-6.3.0/AndroidManifest.xml:2:1-109:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/8fe1a9545bb62a16dcfa0a727b4a497f/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/39b0a42cf105417fa1a4a4ae0c46d8b8/material-1.2.1/AndroidManifest.xml:17:1-24:12
@@ -73,25 +73,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/sungminjin
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/d4465896c4662edfdecbd8826f5767b4/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/322c4f0d35a3e589252b3ec955278361/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/d16c055fb911a7e235b9e6af8aa6e581/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.3.0] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/77d6481d544789b159f2afa2e3a47549/jetified-firebase-ui-auth-6.3.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.3.0] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/77d6481d544789b159f2afa2e3a47549/jetified-firebase-ui-auth-6.3.0/AndroidManifest.xml:15:5-107:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/sungminjin/.gradle/caches/transforms-2/files-2.1/8fe1a9545bb62a16dcfa0a727b4a497f/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -158,28 +158,32 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/sungminjin/.grad
 		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:11:9-40
-activity#ca.bcit.pubhub.activities.ChatActivity
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:9-70
+activity#ca.bcit.pubhub.activities.HistoryActivity
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:9-73
 	android:name
-		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:19-58
-activity#ca.bcit.pubhub.activities.HomeActivity
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:19-61
+activity#ca.bcit.pubhub.activities.ChatActivity
 ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:9-61
 	android:name
 		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:19-58
+activity#ca.bcit.pubhub.activities.HomeActivity
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:9-61
+	android:name
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:19-58
 activity#ca.bcit.pubhub.activities.LoginActivity
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:19-59
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml

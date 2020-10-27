@@ -1699,6 +1699,8 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id TextView_match_name
+id TextView_match_time
 id TextView_msg
 id TextView_name
 id accelerate
@@ -1784,6 +1786,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_go_match
+id btn_history
 id btn_holder
 id btn_move_chat
 id btn_move_chat2
@@ -1897,6 +1901,7 @@ id header
 id header_text
 id heading
 id hideable
+id history_Recycle_View
 id home
 id homeAsUp
 id honorRequest
@@ -2201,6 +2206,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chat
+layout activity_history
 layout activity_home
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -2294,6 +2300,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout row_chat
+layout row_history
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

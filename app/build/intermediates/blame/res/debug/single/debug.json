@@ -16,12 +16,12 @@
         "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -42,6 +42,14 @@
     {
         "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
         "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_row_history.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/row_history.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_history.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/activity_history.xml"
     },
     {
         "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",

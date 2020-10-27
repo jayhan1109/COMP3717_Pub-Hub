@@ -24,6 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="ca.bcit.pubhub.activities.HistoryActivity" />
         <activity android:name="ca.bcit.pubhub.activities.ChatActivity" />
         <activity android:name="ca.bcit.pubhub.activities.HomeActivity" />
         <activity android:name="ca.bcit.pubhub.activities.LoginActivity" >
