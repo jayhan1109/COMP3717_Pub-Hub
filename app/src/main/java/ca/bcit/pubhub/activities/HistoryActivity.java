@@ -54,7 +54,6 @@ public class HistoryActivity extends AppCompatActivity {
         historyList = new ArrayList<>();
         mAdapter = new HistoryAdapter(historyList, HistoryActivity.this);
         recyclerView.setAdapter(mAdapter);
-        myRef.orderByValue();
 
 
         myRef.addChildEventListener(new ChildEventListener() {

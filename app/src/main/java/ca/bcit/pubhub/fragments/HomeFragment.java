@@ -48,6 +48,14 @@ public class HomeFragment extends Fragment {
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         myRef = database.getReference("history/"+ userId);
 
+        btn_history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplication(), HistoryActivity.class);
+                startActivity(i);
+            }
+        });
+
         btn_move_chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,19 +94,40 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        btn_history.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplication(), HistoryActivity.class);
-                startActivity(i);
-            }
-        });
-
         btn_move_chat2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
                 i.putExtra("chatId", "test");
+
+                Date date = new Date();
+                Timestamp ts = new Timestamp(date.getTime());
+
+                History history = new History();
+                final String matchId = "test";
+                history.setMatchID(matchId);
+                history.setMatchName("GenG vs DWG");
+                history.setMatchTime(ServerValue.TIMESTAMP);
+                history.setHistoryTime(ServerValue.TIMESTAMP);
+                myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                            History h = snapshot.getValue(History.class);
+                            if(h.getMatchID().equals(matchId)){
+//                                String key = snapshot.getKey();
+                                DatabaseReference newRef = snapshot.getRef();
+                                newRef.removeValue();
+                                return;
+                            }
+                        }
+                    }
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                    }
+                });
+
+                myRef.push().setValue(history);
                 startActivity(i);
             }
         });

@@ -1,4 +1,4 @@
-#Wed Oct 28 02:41:09 KST 2020
+#Wed Oct 28 02:54:22 KST 2020
 base.0=/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
