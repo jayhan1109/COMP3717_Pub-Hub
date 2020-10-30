@@ -36,6 +36,15 @@ public class MatchListFragment extends ListFragment {
         for (MatchModel m : Match.soccer_bundesliga) {
             adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
         }
+        for (MatchModel m : Match.basketball_nba) {
+            adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+        }
+        for (MatchModel m : Match.baseball_ml) {
+            adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+        }
+        for (MatchModel m : Match.esports_lol) {
+            adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+        }
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }

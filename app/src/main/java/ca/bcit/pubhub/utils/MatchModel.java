@@ -1,6 +1,7 @@
 package ca.bcit.pubhub.utils;
 
 import java.sql.Date;
+import java.time.LocalDate;
 
 public class MatchModel {
     private int _category;
