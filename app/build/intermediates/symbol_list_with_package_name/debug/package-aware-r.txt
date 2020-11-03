@@ -47,6 +47,11 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array baseball_array
+array basketball_array
+array category_type
+array esports_array
+array soccer_array
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1775,7 +1780,9 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
+id baseball_listview
 id baseline
+id basketball_listview
 id beginOnFirstDraw
 id beginning
 id blocking
@@ -1801,6 +1808,8 @@ id button_sign_in
 id cancel_action
 id cancel_button
 id categoryId
+id category_layout
+id category_listview
 id center
 id center_horizontal
 id center_vertical
@@ -1875,6 +1884,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id esports_listview
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2054,6 +2064,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soccer_listview
 id spacer
 id spline
 id split_action_bar
@@ -2205,9 +2216,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_baseball
+layout activity_basketball
+layout activity_category_detail
 layout activity_chat
+layout activity_esports
 layout activity_history
 layout activity_home
+layout activity_soccer
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

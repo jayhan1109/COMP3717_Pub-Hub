@@ -2,4 +2,30 @@
     <string name="app_name">pubhub</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="category_type">
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Baseball</item>
+        <item>E-sports</item>
+    </string-array>
+    <string-array name="soccer_array">
+        <item>EPL</item>
+        <item>La Liga</item>
+        <item>Bundesliga</item>
+    </string-array>
+    <string-array name="basketball_array">
+        <item>basketball1</item>
+        <item>basketball2</item>
+        <item>basketball3</item>
+    </string-array>
+    <string-array name="baseball_array">
+        <item>baseball1</item>
+        <item>baseball2</item>
+        <item>baseball3</item>
+    </string-array>
+    <string-array name="esports_array">
+        <item>esports1</item>
+        <item>esports2</item>
+        <item>esports3</item>
+    </string-array>
 </resources>

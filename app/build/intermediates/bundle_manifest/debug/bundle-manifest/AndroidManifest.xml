@@ -27,6 +27,15 @@
         <activity android:name="ca.bcit.pubhub.activities.HistoryActivity" />
         <activity android:name="ca.bcit.pubhub.activities.ChatActivity" />
         <activity android:name="ca.bcit.pubhub.activities.HomeActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.SoccerActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.EsportsActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.BasketballActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.BaseballActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.SoccerListActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.BasketballListActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.BaseballListActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.EsportsListActivity" />
+        <activity android:name="ca.bcit.pubhub.activities.Categories.CategoryDetailActivity" />
         <activity android:name="ca.bcit.pubhub.activities.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
