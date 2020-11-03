@@ -4,6 +4,7 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_basketball.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_basketball.xml"
     },
@@ -30,18 +31,79 @@
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+=======
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_round_corner.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/drawable/round_corner.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/drawable/ic_launcher_background.xml"
+>>>>>>> jason
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_baseball.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_baseball.xml"
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_row_chat.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/row_chat.xml"
+=======
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_round_corner2.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/drawable/round_corner2.xml"
+>>>>>>> jason
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_esports.xml.flat",
@@ -56,6 +118,7 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
     },
@@ -74,6 +137,14 @@
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+=======
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_row_chat.xml.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/layout/row_chat.xml"
+>>>>>>> jason
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_history.xml.flat",
@@ -84,6 +155,7 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_home.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_category.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_category.xml"
     },
@@ -110,5 +182,9 @@
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+=======
+        "merged": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/sungminjin/Desktop/Android Project/COMP3717_Pub-Hub/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+>>>>>>> jason
     }
 ]
