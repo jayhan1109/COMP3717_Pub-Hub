@@ -63,6 +63,7 @@ public class ChatActivity extends AppCompatActivity {
                     chat.setMsg(msg);
                     chat.setId(id);
                     myRef.push().setValue(chat);
+                    EditText_chat.setText("");
                 }
             }
         });
@@ -74,7 +75,7 @@ public class ChatActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         chatList = new ArrayList<>();
-        mAdapter = new ChatAdapter(chatList, ChatActivity.this, name, id);
+        mAdapter = new ChatAdapter(chatList, ChatActivity.this, name, id, recyclerView);
         recyclerView.setAdapter(mAdapter);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
