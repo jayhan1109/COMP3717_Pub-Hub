@@ -39,8 +39,6 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         Button logoutBtn = view.findViewById(R.id.logoutBtn);
-        Button btn_move_chat = view.findViewById(R.id.btn_move_chat);
-        Button btn_move_chat2 = view.findViewById(R.id.btn_move_chat2);
         Button btn_history = view.findViewById(R.id.btn_history);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -52,77 +50,6 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity().getApplication(), HistoryActivity.class);
-                startActivity(i);
-            }
-        });
-
-        // TODO: Send matchId with Intent
-        btn_move_chat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
-                i.putExtra("chatId", "helloWorld");
-
-                History history = new History();
-                final String matchId = "helloWorld";
-                history.setMatchID(matchId);
-                history.setMatchName("Tes vs Tes");
-                history.setMatchTime(ServerValue.TIMESTAMP);
-                history.setHistoryTime(ServerValue.TIMESTAMP);
-                myRef.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                            History h = snapshot.getValue(History.class);
-                            if(h.getMatchID().equals(matchId)){
-//                                String key = snapshot.getKey();
-                                DatabaseReference newRef = snapshot.getRef();
-                                newRef.removeValue();
-                                return;
-                            }
-                        }
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                    }
-                });
-
-                myRef.push().setValue(history);
-                startActivity(i);
-            }
-        });
-
-        btn_move_chat2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplication(), ChatActivity.class);
-                i.putExtra("chatId", "test");
-
-                History history = new History();
-                final String matchId = "test";
-                history.setMatchID(matchId);
-                history.setMatchName("GenG vs DWG");
-                history.setMatchTime(ServerValue.TIMESTAMP);
-                history.setHistoryTime(ServerValue.TIMESTAMP);
-                myRef.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                            History h = snapshot.getValue(History.class);
-                            if(h.getMatchID().equals(matchId)){
-//                                String key = snapshot.getKey();
-                                DatabaseReference newRef = snapshot.getRef();
-                                newRef.removeValue();
-                                return;
-                            }
-                        }
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                    }
-                });
-
-                myRef.push().setValue(history);
                 startActivity(i);
             }
         });

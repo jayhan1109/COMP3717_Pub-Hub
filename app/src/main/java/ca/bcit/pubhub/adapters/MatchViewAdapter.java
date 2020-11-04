@@ -54,8 +54,11 @@ public class MatchViewAdapter extends BaseAdapter {
         team1View.setText(listViewItem.get_team1());
         team2View.setText(listViewItem.get_team2());
         dateView.setText(listViewItem.get_date().toString());
-
         return view;
+    }
+
+    public MatchViewItem getMatchViewItem(int index) {
+        return matchViewItemList.get(index);
     }
 
     public void addItem(int c, int m, String t1, String t2, Date d) {

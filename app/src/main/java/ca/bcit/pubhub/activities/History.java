@@ -1,16 +1,18 @@
 package ca.bcit.pubhub.activities;
 
+import java.util.Date;
+
 public class History implements Comparable<History>{
-    String matchID;
+    int matchID;
     String matchName;
-    Object matchTime;
+    String matchTime;
     Object historyTime;
 
-    public String getMatchID() {
+    public int getMatchID() {
         return matchID;
     }
 
-    public void setMatchID(String matchID) {
+    public void setMatchID(int matchID) {
         this.matchID = matchID;
     }
 
@@ -22,11 +24,11 @@ public class History implements Comparable<History>{
         this.matchName = matchName;
     }
 
-    public Object getMatchTime() {
+    public String getMatchTime() {
         return matchTime;
     }
 
-    public void setMatchTime(Object matchTime) {
+    public void setMatchTime(String matchTime) {
         this.matchTime = matchTime;
     }
 

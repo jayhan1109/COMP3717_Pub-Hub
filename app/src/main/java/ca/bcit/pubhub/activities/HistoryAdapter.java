@@ -66,19 +66,15 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
         // - replace the contents of the view with that element
         final History history = mDataset.get(position);
         holder.TextView_match_name.setText(history.getMatchName());
-        long unixTime = (long) history.getMatchTime();
-        Date date = new Date(unixTime);
-        simpleDateFormat.setTimeZone(TimeZone.getTimeZone("PST"));
-        String time = simpleDateFormat.format(date);
-        holder.TextView_time.setText(time);
-        final String matchId = history.getMatchID();
+        holder.TextView_time.setText(history.getMatchTime());
+        final int matchId = history.getMatchID();
         holder.btn_go_match.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
                 Intent i = new Intent(context, ChatActivity.class);
-                i.putExtra("chatId", matchId);
+                i.putExtra("chatId", Integer.toString(matchId));
                 context.startActivity(i);
             }
         });
