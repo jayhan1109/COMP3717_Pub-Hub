@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="match_vertical_padding">12dp</dimen>
+    <dimen name="match_team_width">230dp</dimen>
+    <dimen name="match_team_margin">8dp</dimen>
+    <dimen name="match_date_width">80dp</dimen>
+    <dimen name="match_team_text">18sp</dimen>
+    <dimen name="match_date_text">16sp</dimen>
+</resources>

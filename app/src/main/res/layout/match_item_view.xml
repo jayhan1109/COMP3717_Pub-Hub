@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/categoryId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/matchId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/match_vertical_padding"
+    android:background="@drawable/match_border"
+    android:showDividers="none"
+    >
 
     <TextView
         android:id="@+id/team1"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/match_team_width"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
+        android:layout_marginStart="@dimen/match_team_margin"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/roboto"
+        android:textSize="@dimen/match_team_text" />
 
     <TextView
         android:id="@+id/team2"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/match_team_width"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/roboto"
+        android:textSize="@dimen/match_team_text"/>
 
     <TextView
         android:id="@+id/date"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/match_date_width"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/match_team_margin"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:layout_gravity="center"
+
+        android:textSize="@dimen/match_date_text"
+        android:fontFamily="@font/yan"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary" />
 </LinearLayout>

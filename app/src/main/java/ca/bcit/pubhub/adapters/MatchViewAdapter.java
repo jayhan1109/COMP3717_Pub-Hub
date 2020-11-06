@@ -41,19 +41,15 @@ public class MatchViewAdapter extends BaseAdapter {
             view = inflater.inflate(R.layout.match_item_view, parent, false);
         }
 
-        TextView categoryView = (TextView) view.findViewById(R.id.categoryId);
-        TextView matchView = (TextView) view.findViewById(R.id.matchId);
         TextView team1View = (TextView) view.findViewById(R.id.team1);
         TextView team2View = (TextView) view.findViewById(R.id.team2);
         TextView dateView = (TextView) view.findViewById(R.id.date);
 
         MatchViewItem listViewItem = matchViewItemList.get(i);
 
-        categoryView.setText(listViewItem.get_categoryId() + "");
-        matchView.setText(listViewItem.get_matchId() + "");
         team1View.setText(listViewItem.get_team1());
         team2View.setText(listViewItem.get_team2());
-        dateView.setText(listViewItem.get_date().toString());
+        dateView.setText(listViewItem.get_date().toString().substring(5).replace("-"," / "));
         return view;
     }
 

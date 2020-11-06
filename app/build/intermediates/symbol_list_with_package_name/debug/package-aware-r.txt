@@ -968,6 +968,7 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorWhite
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1310,6 +1311,12 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen match_date_text
+dimen match_date_width
+dimen match_team_margin
+dimen match_team_text
+dimen match_team_width
+dimen match_vertical_padding
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
 dimen material_emphasis_medium
@@ -1656,6 +1663,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable match_border
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1687,9 +1695,20 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable round_corner
 drawable round_corner2
+drawable tab_background
+drawable tab_background_selected
+drawable tab_background_unselected
+drawable tab_color
+drawable tab_color_selected
+drawable tab_color_unselected
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font alebold
+font alebolditalic
+font font
+font roboto
+font yan
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1808,7 +1827,6 @@ id button_resend_email
 id button_sign_in
 id cancel_action
 id cancel_button
-id categoryId
 id category_layout
 id category_listview
 id center
@@ -1945,7 +1963,6 @@ id logo
 id logoutBtn
 id main_tos_and_pp
 id masked
-id matchId
 id media_actions
 id message
 id microsoft_signin_button

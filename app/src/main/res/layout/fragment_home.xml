@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragments.HomeFragment">
+    tools:context=".fragments.HomeFragment"
+    >
 
 
     <Button
@@ -21,6 +22,6 @@
     <fragment
         android:id="@+id/customlistfragment"
         android:name="ca.bcit.pubhub.fragments.MatchListFragment"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

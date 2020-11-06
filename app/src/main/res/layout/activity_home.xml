@@ -15,7 +15,7 @@
         android:elevation="1dp"
         app:tabGravity="fill"
         app:tabMode="fixed"
-        app:tabSelectedTextColor="@color/colorAccent"
+        app:tabSelectedTextColor="@color/colorWhite"
         app:tabTextColor="@color/colorPrimary" />
 
     <FrameLayout
