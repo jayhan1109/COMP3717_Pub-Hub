@@ -1,7 +1,7 @@
-#Sat Nov 07 05:50:31 JST 2020
-base.0=C\:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sun Nov 08 05:41:23 KST 2020
+base.1=C\:\\Users\\tyler\\AndroidStudioProjects\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
+base.0=C\:\\Users\\tyler\\AndroidStudioProjects\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.1=classes2.dex
-path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+path.0=classes.dex

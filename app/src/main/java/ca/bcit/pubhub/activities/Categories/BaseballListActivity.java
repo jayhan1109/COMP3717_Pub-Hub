@@ -1,9 +1,7 @@
 package ca.bcit.pubhub.activities.Categories;
 
 import android.app.ListActivity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
@@ -24,7 +22,17 @@ public class BaseballListActivity extends ListActivity {
 
         switch (categories) {
             case 0:
-                for (MatchModel m : Match.baseball_ml) {
+                for (MatchModel m : Match.baseball_mlb) {
+                    adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+                }
+                break;
+            case 1:
+                for (MatchModel m : Match.baseball_kbo) {
+                    adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+                }
+                break;
+            case 2:
+                for (MatchModel m : Match.baseball_npb) {
                     adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
                 }
                 break;

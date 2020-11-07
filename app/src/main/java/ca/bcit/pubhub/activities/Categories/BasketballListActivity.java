@@ -47,6 +47,16 @@ public class BasketballListActivity extends ListActivity {
                     adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
                 }
                 break;
+            case 1:
+                for (MatchModel m : Match.basketball_lnb) {
+                    adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+                }
+                break;
+            case 2:
+                for (MatchModel m : Match.basketball_acb) {
+                    adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
+                }
+                break;
         }
 
         ListView basketball_list = getListView();

@@ -14,18 +14,18 @@
         <item>Bundesliga</item>
     </string-array>
     <string-array name="basketball_array">
-        <item>basketball1</item>
-        <item>basketball2</item>
-        <item>basketball3</item>
+        <item>NBA</item>
+        <item>LNB Pro A</item>
+        <item>Liga ACB</item>
     </string-array>
     <string-array name="baseball_array">
-        <item>baseball1</item>
-        <item>baseball2</item>
-        <item>baseball3</item>
+        <item>MLB</item>
+        <item>KBO</item>
+        <item>NPB</item>
     </string-array>
     <string-array name="esports_array">
         <item>League of Legends</item>
-        <item>esports2</item>
-        <item>esports3</item>
+        <item>Overwatch</item>
+        <item>Fortnite</item>
     </string-array>
 </resources>

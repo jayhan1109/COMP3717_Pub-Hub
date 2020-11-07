@@ -5,9 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -60,7 +58,7 @@ public class MatchListFragment extends ListFragment {
         for (MatchModel m : Match.basketball_nba) {
             adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
         }
-        for (MatchModel m : Match.baseball_ml) {
+        for (MatchModel m : Match.baseball_mlb) {
             adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
         }
         for (MatchModel m : Match.esports_lol) {
