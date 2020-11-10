@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/category_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/category_layout"
     tools:context=".fragments.CategoryFragment">
-    <!-- TODO: Update blank fragment layout -->
 
-    <ListView
-        android:id="@+id/category_listview"
-        android:entries="@array/category_type"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/categoryCustomListFragment"
+        android:name="ca.bcit.pubhub.fragments.CategoryFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

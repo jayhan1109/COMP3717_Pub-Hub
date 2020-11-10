@@ -25,19 +25,45 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ca.bcit.pubhub.activities.HistoryActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.ChatActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.HomeActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.SoccerActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.EsportsActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.BasketballActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.BaseballActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.SoccerListActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.BasketballListActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.BaseballListActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.EsportsListActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.Categories.CategoryDetailActivity" />
-        <activity android:name="ca.bcit.pubhub.activities.LoginActivity" >
+        <activity
+            android:name="ca.bcit.pubhub.activities.HistoryActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.ChatActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.HomeActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.SoccerActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.EsportsActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.BasketballActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.BaseballActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.SoccerListActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.BasketballListActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.BaseballListActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.EsportsListActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.Categories.CategoryDetailActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="ca.bcit.pubhub.activities.LoginActivity"
+            android:theme="@style/Theme.AppCompat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -160,6 +186,54 @@
             android:launchMode="singleTask"
             android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
