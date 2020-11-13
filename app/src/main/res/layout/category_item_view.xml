@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingVertical="@dimen/match_vertical_padding"
+    android:orientation="vertical"
     android:background="@drawable/match_border"
-    android:showDividers="none"
-    >
+    android:showDividers="none">
 
-    <TextView
-        android:id="@+id/categoryTextView"
-        android:layout_width="@dimen/match_team_width"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/match_team_margin"
-        android:layout_weight="3"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:textColor="@color/colorPrimaryDark"
-        android:fontFamily="@font/roboto"
-        android:textSize="@dimen/match_team_text" />
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="@dimen/match_team_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/match_team_margin"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/roboto"
+            android:textSize="@dimen/match_team_text" />
+    </LinearLayout>
 
-</LinearLayout>
+
+</CardView>

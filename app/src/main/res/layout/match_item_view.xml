@@ -6,8 +6,7 @@
     android:layout_height="wrap_content"
     android:paddingVertical="@dimen/match_vertical_padding"
     android:background="@drawable/match_border"
-    android:showDividers="none"
-    >
+    android:showDividers="none" >
 
     <TextView
         android:id="@+id/team1"

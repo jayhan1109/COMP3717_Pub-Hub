@@ -30,7 +30,7 @@ public class Match {
 
     public static final MatchModel[] basketball_nba = getMatches(MatchId.getBasketballNba(), 3, NBA_TEAMS);
     public static final MatchModel[] basketball_lnb = getMatches(MatchId.getBasketballLnb(), 4, LNB_TEAMS);
-    public static final MatchModel[] basketball_acb = getMatches(MatchId.getBasketballAcb(), 5, NBA_TEAMS);
+    public static final MatchModel[] basketball_acb = getMatches(MatchId.getBasketballAcb(), 5, ACB_TEAMS);
 
 
     public static final MatchModel[] baseball_mlb = getMatches(MatchId.getBaseballMlb(), 6, MLB_TEAMS);

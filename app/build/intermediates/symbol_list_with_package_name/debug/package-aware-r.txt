@@ -1803,8 +1803,10 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
+id baseball_button
 id baseball_listview
 id baseline
+id basketball_button
 id basketball_listview
 id beginOnFirstDraw
 id beginning
@@ -1829,7 +1831,6 @@ id button_sign_in
 id cache_measures
 id cancel_action
 id cancel_button
-id categoryCustomListFragment
 id categoryTextView
 id category_layout
 id center
@@ -1907,6 +1908,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id esports_button
 id esports_listview
 id exitUntilCollapsed
 id expand_activities_button
@@ -2087,6 +2089,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soccer_button
 id soccer_listview
 id spacer
 id spline
@@ -2241,7 +2244,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_baseball
 layout activity_basketball
-layout activity_category_detail
 layout activity_chat
 layout activity_esports
 layout activity_history

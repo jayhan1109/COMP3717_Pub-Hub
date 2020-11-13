@@ -1,16 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/category_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:stretchColumns="*"
     tools:context=".fragments.CategoryFragment">
 
-    <fragment
-        android:id="@+id/categoryCustomListFragment"
-        android:name="ca.bcit.pubhub.fragments.CategoryFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <TableRow>
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_column="0"
+            android:layout_span="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_column="1"
+            android:layout_span="2" />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/soccer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_column="0"
+            android:layout_span="2"
+
+            android:text="Soccer" />
+
+        <Button
+            android:id="@+id/basketball_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_column="1"
+            android:layout_span="2"
+
+            android:text="Basketball" />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_column="0"
+            android:layout_span="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_column="1"
+            android:layout_span="2" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/baseball_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="2"
+            android:text="Baseball" />
+        <Button
+            android:id="@+id/esports_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:text="E-Sports" />
+    </TableRow>
+
+</TableLayout>
