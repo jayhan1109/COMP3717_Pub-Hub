@@ -39,20 +39,12 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         Button logoutBtn = view.findViewById(R.id.logoutBtn);
-        Button btn_history = view.findViewById(R.id.btn_history);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         userId = user.getUid();
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         myRef = database.getReference("history/"+ userId);
 
-        btn_history.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplication(), HistoryActivity.class);
-                startActivity(i);
-            }
-        });
 
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override

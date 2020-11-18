@@ -1,5 +1,81 @@
 [
     {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_history_view.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_history_view.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_custom_border.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/custom_border.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_baseball.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/baseball.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_round_corner.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/round_corner.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_background_unselected.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_background_unselected.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_baseball.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_baseball.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color_selected.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color_selected.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_soccer.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/soccer.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_alebold.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/alebold.ttf"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_roboto.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/roboto.ttf"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_basketball.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/basketball.png"
+    },
+    {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color_unselected.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color_unselected.xml"
     },
@@ -32,16 +108,8 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_chat.xml"
     },
     {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_font.xml.flat",
@@ -56,24 +124,8 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_round_corner.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/round_corner.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_background_unselected.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_background_unselected.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_baseball.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_baseball.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_custom_border_v2.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/custom_border_v2.xml"
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_esports.xml.flat",
@@ -88,16 +140,8 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_esports.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/esports.png"
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_row_history.xml.flat",
@@ -114,14 +158,6 @@
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_history.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_history.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color_selected.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color_selected.xml"
-    },
-    {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_home.xml"
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_category.xml.flat",
@@ -148,10 +184,6 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_alebold.ttf.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/alebold.ttf"
-    },
-    {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
@@ -160,11 +192,11 @@
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_roboto.ttf.flat",
-        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/roboto.ttf"
-    },
-    {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_history.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/history.png"
     }
 ]

@@ -7,13 +7,9 @@
     tools:context=".activities.Categories.BasketballActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="activity basketball page"/>
+
     <ListView
         android:id="@+id/basketball_listview"
-        android:entries="@array/basketball_array"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

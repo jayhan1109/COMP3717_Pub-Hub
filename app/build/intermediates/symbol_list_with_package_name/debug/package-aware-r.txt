@@ -1602,6 +1602,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseball
+drawable basketball
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1629,12 +1631,15 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custom_border
+drawable custom_border_v2
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable esports
 drawable fui_ic_anonymous_white_24dp
 drawable fui_ic_apple_white_24dp
 drawable fui_ic_check_circle_black_128dp
@@ -1658,6 +1663,7 @@ drawable fui_idp_button_background_twitter
 drawable fui_idp_button_background_yahoo
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable history
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1696,6 +1702,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable round_corner
 drawable round_corner2
+drawable soccer
 drawable tab_background
 drawable tab_background_selected
 drawable tab_background_unselected
@@ -1831,8 +1838,8 @@ id button_sign_in
 id cache_measures
 id cancel_action
 id cancel_button
-id categoryTextView
 id category_layout
+id category_textview
 id center
 id center_horizontal
 id center_vertical
@@ -2270,6 +2277,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_category
 layout fragment_history
+layout fragment_history_view
 layout fragment_home
 layout fui_activity_invisible
 layout fui_activity_register_email
