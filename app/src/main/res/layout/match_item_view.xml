@@ -1,48 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingVertical="@dimen/match_vertical_padding"
-    android:background="@drawable/match_border"
-    android:showDividers="none"
-    >
+    android:background="@drawable/custom_border"
+    android:stretchColumns="*"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/team1"
-        android:layout_width="@dimen/match_team_width"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/match_team_margin"
-        android:layout_weight="3"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:textColor="@color/colorPrimaryDark"
-        android:fontFamily="@font/roboto"
-        android:textSize="@dimen/match_team_text" />
+    <TableRow>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
 
-    <TextView
-        android:id="@+id/team2"
-        android:layout_width="@dimen/match_team_width"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="4dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:fontFamily="@font/roboto"
-        android:textSize="@dimen/match_team_text"/>
+            android:layout_column="2"
+            android:layout_span="4"
+            android:padding="5dp"
 
-    <TextView
-        android:id="@+id/date"
-        android:layout_width="@dimen/match_date_width"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/match_team_margin"
-        android:layout_weight="1"
-        android:layout_gravity="center"
+            />
+    </TableRow>
 
-        android:textSize="@dimen/match_date_text"
-        android:fontFamily="@font/yan"
-        android:gravity="center"
-        android:textColor="@color/colorPrimary" />
-</LinearLayout>
+    <TableRow>
+        <TextView
+            android:id="@+id/team1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_column="0"
+            android:layout_span="3"
+            android:padding="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="VS"
+
+            android:layout_column="1"
+            android:layout_span="2"
+            android:padding="5dp"
+
+
+            />
+        <TextView
+            android:id="@+id/team2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+
+
+            android:layout_column="2"
+            android:layout_span="3"
+            />
+    </TableRow>
+
+
+</TableLayout>

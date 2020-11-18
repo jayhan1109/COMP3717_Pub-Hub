@@ -78,17 +78,6 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
                 context.startActivity(i);
             }
         });
-//        holder.TextView_time.setText((String)history.getMatchTime());
-//        holder.TextView_name.setText(chat.getName());
-//        holder.TextView_msg.setText(chat.getMsg());
-//        System.out.println(chat.getName() + "    "  + myName);
-//        if(chat.getId().equals(this.id)) {
-//            holder.TextView_name.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
-//            holder.TextView_msg.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
-//        } else {
-//            holder.TextView_name.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-//            holder.TextView_msg.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-//        }
     }
 
     // Return the size of your dataset (invoked by the layout manager)

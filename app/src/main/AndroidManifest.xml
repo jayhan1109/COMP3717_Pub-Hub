@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat">
         <activity android:name=".activities.HistoryActivity" />
         <activity android:name=".activities.ChatActivity" />
         <activity android:name=".activities.HomeActivity" />
@@ -20,7 +20,6 @@
         <activity android:name=".activities.Categories.BasketballListActivity" />
         <activity android:name=".activities.Categories.BaseballListActivity" />
         <activity android:name=".activities.Categories.EsportsListActivity" />
-        <activity android:name=".activities.Categories.CategoryDetailActivity" />
         <activity android:name=".activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

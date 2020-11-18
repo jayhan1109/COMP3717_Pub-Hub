@@ -1,11 +1,14 @@
 package ca.bcit.pubhub.adapters;
 
 import android.content.Context;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -13,50 +16,41 @@ import ca.bcit.pubhub.R;
 import ca.bcit.pubhub.items.CategoryViewItem;
 
 public class CategoryAdapter extends BaseAdapter {
+    Context context;
+    int layout;
+    ArrayList<CategoryViewItem> category_view_item_list;
+    LayoutInflater layoutInflater;
 
-    private ArrayList<CategoryViewItem> categoryItemList = new ArrayList<>();
-
+    public CategoryAdapter(Context context, int layout, ArrayList<CategoryViewItem> category_view_item_list) {
+        this.context = context;
+        this.layout = layout;
+        this.category_view_item_list = category_view_item_list;
+        layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
     @Override
     public int getCount() {
-        return categoryItemList.size();
+        return category_view_item_list.size();
     }
 
     @Override
-    public Object getItem(int i) {
-        return categoryItemList.get(i);
+    public Object getItem(int position) {
+        return category_view_item_list.get(position);
     }
 
     @Override
-    public long getItemId(int i) {
-        return i;
+    public long getItemId(int position) {
+        return position;
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup parent) {
-        final Context context = parent.getContext();
-
-        if (view == null) {
-            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.category_item_view, parent, false);
+    public View getView(int position, View convertView, ViewGroup parent) {
+        if (convertView == null) {
+            convertView = layoutInflater.inflate(layout, null);
         }
+        TextView category_textview = (TextView) convertView.findViewById(R.id.category_textview);
+        CategoryViewItem categoryViewItem = category_view_item_list.get(position);
+        category_textview.setText(categoryViewItem.get_categoryName());
 
-        TextView category = (TextView) view.findViewById(R.id.categoryTextView);
-
-        CategoryViewItem listViewItem = categoryItemList.get(i);
-
-        category.setText(listViewItem.get_categoryName());
-        return view;
-    }
-
-    public CategoryViewItem getCategoryViewItem(int index) {
-        return categoryItemList.get(index);
-    }
-
-    public void addItem(String c) {
-        CategoryViewItem item = new CategoryViewItem();
-
-        item.set_categoryName(c);
-
-        categoryItemList.add(item);
+        return convertView;
     }
 }

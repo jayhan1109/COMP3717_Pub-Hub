@@ -1,13 +1,7 @@
-#Wed Nov 11 03:44:22 JST 2020
-path.3=classes.dex
-path.2=classes.dex
+#Thu Nov 19 02:38:46 KST 2020
+base.0=/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
-path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.3=C\:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-base.2=C\:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\tyler\\AndroidStudioProjects\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-base.0=C\:\\Users\\tyler\\AndroidStudioProjects\\COMP3717_Pub-Hub\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:stretchColumns="*"
     tools:context=".fragments.HistoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="History" />
 
-</FrameLayout>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/history"
+            android:adjustViewBounds="true"
+            android:layout_column="1"
+            android:layout_span="3" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_column="1"
+            android:layout_span="3"
+            android:text="Lorem ipsum dolor sit amet, consectewtur adipiscing elit. Proin in faucibus lacus. Aenean sit amet viverra turpis. Mauris imperdiet velit sodales est tempus scelerisque.">
+
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btn_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="5"
+            android:text="History"/>
+    </TableRow>
+    <TableRow>
+
+
+    </TableRow>
+
+
+</TableLayout>

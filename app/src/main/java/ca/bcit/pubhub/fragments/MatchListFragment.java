@@ -45,8 +45,7 @@ public class MatchListFragment extends ListFragment {
         myRef = database.getReference("history/"+ userId);
 
 
-        for (
-                MatchModel m : Match.soccer_epl) {
+        for (MatchModel m : Match.soccer_epl) {
             adapter.addItem(m.get_category(), m.get_matchId(), m.get_team1(), m.get_team2(), m.get_date());
         }
         for (MatchModel m : Match.soccer_laliga) {

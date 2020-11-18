@@ -1,174 +1,202 @@
 [
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\font_font.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\font\\font.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_history_view.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_history_view.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_custom_border.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/custom_border.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_category_detail.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_category_detail.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_baseball.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/baseball.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_esports.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_esports.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_round_corner.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/round_corner.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_chat.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\row_chat.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_background_unselected.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_background_unselected.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_color_selected.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\tab_color_selected.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_history.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\row_history.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_baseball.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_baseball.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_match_item_view.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\match_item_view.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_category_item_view.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\category_item_view.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_corner.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\round_corner.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_match_border.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\match_border.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color_selected.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color_selected.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.ttf.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\font\\roboto.ttf"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_chat.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_soccer.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/soccer.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_history.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\fragment_history.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_alebold.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/alebold.ttf"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\font_alebold.ttf.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\font\\alebold.ttf"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_roboto.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/roboto.ttf"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_basketball.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/basketball.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_color_unselected.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_color_unselected.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_basketball.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_basketball.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_alebolditalic.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/alebolditalic.ttf"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_basketball.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_basketball.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_category.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\fragment_category.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_soccer.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_soccer.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_baseball.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_baseball.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_category_item_view.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/category_item_view.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_soccer.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_soccer.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_yan.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/yan.ttf"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_chat.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_color_unselected.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\tab_color_unselected.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_background_unselected.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\tab_background_unselected.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_font.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/font.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_corner2.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\round_corner2.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_round_corner2.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/round_corner2.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_custom_border_v2.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/custom_border_v2.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_esports.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_esports.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_row_chat.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/row_chat.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\font_alebolditalic.ttf.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\font\\alebolditalic.ttf"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_esports.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/esports.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_row_history.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/row_history.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_background_selected.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\tab_background_selected.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\layout\\activity_history.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_background_selected.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_background_selected.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_background.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\tab_background.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_history.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_history.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_color.xml.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\drawable\\tab_color.xml"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_category.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_category.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_tab_background.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/tab_background.xml"
     },
     {
-        "merged": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\build\\intermediates\\res\\merged\\debug\\font_yan.ttf.flat",
-        "source": "C:\\CST\\Term3\\android\\COMP3717_Pub-Hub\\app\\src\\main\\res\\font\\yan.ttf"
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable_match_border.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable/match_border.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_activity_history.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/activity_history.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/drawable-v24_history.png.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/drawable-v24/history.png"
     }
 ]
