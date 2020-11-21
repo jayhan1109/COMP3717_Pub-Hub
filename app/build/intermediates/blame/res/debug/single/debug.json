@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_sample.xml.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/sample.xml"
+    },
+    {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_fragment_history_view.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/fragment_history_view.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/layout_match_item_view.xml.flat",
         "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/layout/match_item_view.xml"
+    },
+    {
+        "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/font_nanum_barunpen_bold.ttf.flat",
+        "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/font/nanum_barunpen_bold.ttf"
     },
     {
         "merged": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",

@@ -12,7 +12,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-
+            android:textSize="20sp"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:textColor="@color/colorNeon"
             android:layout_column="2"
             android:layout_span="4"
             android:padding="5dp"
@@ -26,7 +28,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-
+            android:textColor="@color/colorNeon"
+            android:textSize="18sp"
+            android:fontFamily="@font/nanum_barunpen_bold"
             android:layout_column="0"
             android:layout_span="3"
             android:padding="5dp"
@@ -38,6 +42,9 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="VS"
+            android:textColor="@color/colorNeon"
+
+            android:fontFamily="@font/nanum_barunpen_bold"
 
             android:layout_column="1"
             android:layout_span="2"
@@ -52,6 +59,9 @@
             android:gravity="center"
             android:padding="5dp"
 
+            android:textSize="18sp"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:textColor="@color/colorNeon"
 
             android:layout_column="2"
             android:layout_span="3"

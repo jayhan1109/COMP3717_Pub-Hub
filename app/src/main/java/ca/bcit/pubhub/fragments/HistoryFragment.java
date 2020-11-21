@@ -12,21 +12,30 @@ import android.widget.Button;
 
 import ca.bcit.pubhub.R;
 import ca.bcit.pubhub.activities.HistoryActivity;
+import ca.bcit.pubhub.activities.HomeActivity;
 
 public class HistoryFragment extends Fragment {
-    Button history_button;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_history, container, false);
-        history_button = view.findViewById(R.id.btn_history);
+
+        Button history_button = view.findViewById(R.id.btn_history);
+        Button logoutBtn = view.findViewById(R.id.logoutBtn);
 
         history_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity().getApplication(), HistoryActivity.class);
                 startActivity(i);
+            }
+        });
+
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((HomeActivity) getActivity()).logoutClick();
             }
         });
 

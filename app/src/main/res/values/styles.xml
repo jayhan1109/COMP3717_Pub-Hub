@@ -1,14 +1,23 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:textViewStyle">@style/custom_font</item>
+        <item name="buttonStyle">@style/custom_font</item>
+        <item name="android:listViewStyle">@style/custom_font</item>
     </style>
 
     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
         <item name="tabBackground">@drawable/tab_background</item>
+    </style>
+
+    <style name="custom_font" parent="android:Widget">
+        <item name="android:fontFamily">@font/nanum_barunpen_bold</item>
+        <item name="android:textSize"> 20sp </item>
     </style>
 
 </resources>

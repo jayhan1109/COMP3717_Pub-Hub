@@ -37,12 +37,19 @@
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_span="5"
-            android:text="History"/>
+            android:text="View history"/>
     </TableRow>
+
     <TableRow>
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
+            android:layout_column="0"
+            android:layout_span="5"
 
+            android:text="Sign Out" />
     </TableRow>
-
 
 </TableLayout>

@@ -8,24 +8,12 @@
     tools:context=".fragments.HomeFragment">
 
     <TableRow>
-        <Button
-            android:id="@+id/logoutBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_column="0"
-            android:layout_span="12"
-
-            android:text="Button" />
-    </TableRow>
-
-    <TableRow>
         <fragment
             android:id="@+id/customlistfragment"
             android:name="ca.bcit.pubhub.fragments.MatchListFragment"
 
-            android:layout_column="2"
-            android:layout_span="8"
+            android:layout_column="0"
+            android:layout_span="3"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

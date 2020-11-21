@@ -38,20 +38,11 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        Button logoutBtn = view.findViewById(R.id.logoutBtn);
-
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         userId = user.getUid();
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         myRef = database.getReference("history/"+ userId);
 
-
-        logoutBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ((HomeActivity) getActivity()).logoutClick();
-            }
-        });
 
         return view;
     }

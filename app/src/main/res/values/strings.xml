@@ -2,30 +2,4 @@
     <string name="app_name">pubhub</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="category_type">
-        <item>Soccer</item>
-        <item>Basketball</item>
-        <item>Baseball</item>
-        <item>E-sports</item>
-    </string-array>
-    <string-array name="soccer_array">
-        <item>EPL</item>
-        <item>La Liga</item>
-        <item>Bundesliga</item>
-    </string-array>
-    <string-array name="basketball_array">
-        <item>NBA</item>
-        <item>LNB Pro A</item>
-        <item>Liga ACB</item>
-    </string-array>
-    <string-array name="baseball_array">
-        <item>MLB</item>
-        <item>KBO</item>
-        <item>NPB</item>
-    </string-array>
-    <string-array name="esports_array">
-        <item>League of Legends</item>
-        <item>Overwatch</item>
-        <item>Fortnite</item>
-    </string-array>
 </resources>
