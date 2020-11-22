@@ -9,6 +9,9 @@
         <TextView
             android:textSize="20sp"
             android:id="@+id/TextView_match_time"
+            android:gravity="center"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:textColor="@color/colorNeon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_column="2"
@@ -22,8 +25,9 @@
             android:id="@+id/TextView_match_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:textColor="@color/colorNeon"
             android:gravity="center"
-
             android:layout_column="0"
             android:layout_span="6"
             />
@@ -34,6 +38,7 @@
             android:id="@+id/btn_go_match"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_column="2"
             android:layout_span="2"
             android:text="go to chat" />

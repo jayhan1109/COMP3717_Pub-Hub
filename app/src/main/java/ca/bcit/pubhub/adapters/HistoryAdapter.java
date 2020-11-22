@@ -1,4 +1,4 @@
-package ca.bcit.pubhub.activities;
+package ca.bcit.pubhub.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.SimpleDateFormat;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
-import java.util.TimeZone;
 
 import ca.bcit.pubhub.R;
+import ca.bcit.pubhub.activities.ChatActivity;
+import ca.bcit.pubhub.activities.History;
 
 public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHolder> {
     public Context context;

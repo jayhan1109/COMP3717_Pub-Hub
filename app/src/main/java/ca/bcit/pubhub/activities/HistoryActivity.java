@@ -1,9 +1,6 @@
 package ca.bcit.pubhub.activities;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,14 +16,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 import ca.bcit.pubhub.R;
+import ca.bcit.pubhub.adapters.HistoryAdapter;
 
 public class HistoryActivity extends AppCompatActivity {
     DatabaseReference myRef;

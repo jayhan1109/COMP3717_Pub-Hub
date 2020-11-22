@@ -130,20 +130,20 @@
                 {
                     "source": "/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2,-1,-1",
-                        "startColumns": "4,-1,-1",
-                        "startOffsets": "53,-1,-1",
-                        "endLines": "11,-1,-1",
-                        "endColumns": "12,-1,-1",
-                        "endOffsets": "633,-1,-1"
+                        "startLines": "2,-1,-1,23",
+                        "startColumns": "4,-1,-1,4",
+                        "startOffsets": "53,-1,-1,987",
+                        "endLines": "11,-1,-1,27",
+                        "endColumns": "12,-1,-1,12",
+                        "endOffsets": "633,-1,-1,1206"
                     },
                     "to": {
-                        "startLines": "1237,2953,5078",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "90044,200958,337341",
-                        "endLines": "1246,2955,5081",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "90624,201105,337529"
+                        "startLines": "1237,2953,5078,5082",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "90044,200958,337341,337534",
+                        "endLines": "1246,2955,5081,5086",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "90624,201105,337529,337753"
                     }
                 },
                 {

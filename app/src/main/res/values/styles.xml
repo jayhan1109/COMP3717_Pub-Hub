@@ -20,4 +20,11 @@
         <item name="android:textSize"> 20sp </item>
     </style>
 
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/nanum_barunpen_bold</item>
+        <item name="android:fontStyle">normal</item>
+
+    </style>
+
 </resources>

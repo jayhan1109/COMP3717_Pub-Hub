@@ -6,27 +6,14 @@
     android:stretchColumns="*"
     tools:context=".fragments.HistoryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
-
-    <TableRow>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/history"
-            android:adjustViewBounds="true"
-            android:layout_column="1"
-            android:layout_span="3" />
-    </TableRow>
     <TableRow>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="275dp"
             android:gravity="center"
-            android:layout_column="1"
-            android:layout_span="3"
-            android:text="Lorem ipsum dolor sit amet, consectewtur adipiscing elit. Proin in faucibus lacus. Aenean sit amet viverra turpis. Mauris imperdiet velit sodales est tempus scelerisque.">
-
+            android:layout_column="0"
+            android:layout_span="5"
+            android:text="">
         </TextView>
     </TableRow>
 
@@ -35,8 +22,12 @@
             android:id="@+id/btn_history"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_span="5"
+            android:layout_column="1"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorNeon"
+            android:layout_span="3"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:layout_margin="5dp"
             android:text="View history"/>
     </TableRow>
 
@@ -45,9 +36,12 @@
             android:id="@+id/logoutBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_column="0"
-            android:layout_span="5"
+            android:layout_margin="5dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorNeon"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:layout_column="1"
+            android:layout_span="3"
 
             android:text="Sign Out" />
     </TableRow>

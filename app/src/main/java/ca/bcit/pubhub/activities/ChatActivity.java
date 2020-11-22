@@ -1,6 +1,5 @@
 package ca.bcit.pubhub.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ca.bcit.pubhub.R;
+import ca.bcit.pubhub.adapters.ChatAdapter;
 
 public class ChatActivity extends AppCompatActivity {
     private RecyclerView recyclerView;

@@ -9,84 +9,10 @@
     tools:context=".fragments.CategoryFragment">
 
     <TableRow>
-
-        <ImageView
-            android:background="#FFFFFF"
+        <ListView
+            android:id="@+id/category_listview"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/soccer"
-            android:adjustViewBounds="true"
-            android:layout_column="0"
-            android:layout_span="2" />
-
-        <ImageView
-            android:background="#FFFFFF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/basketball"
-            android:adjustViewBounds="true"
-            android:layout_column="1"
-            android:layout_span="2" />
-
-    </TableRow>
-
-    <TableRow>
-        <Button
-            android:id="@+id/soccer_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_column="0"
-            android:layout_span="2"
-
-            android:text="Soccer" />
-
-        <Button
-            android:id="@+id/basketball_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_column="1"
-            android:layout_span="2"
-
-            android:text="Basketball" />
-    </TableRow>
-
-    <TableRow>
-        <ImageView
-            android:background="#FFFFFF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseball"
-            android:adjustViewBounds="true"
-            android:layout_column="0"
-            android:layout_span="2" />
-
-        <ImageView
-            android:background="#FFFFFF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/esports"
-            android:adjustViewBounds="true"
-            android:layout_column="1"
-            android:layout_span="2" />
-    </TableRow>
-
-    <TableRow>
-        <Button
-            android:id="@+id/baseball_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_span="2"
-            android:text="Baseball" />
-        <Button
-            android:id="@+id/esports_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="1"
-            android:layout_span="2"
-            android:text="E-Sports" />
+            android:layout_height="wrap_content"/>
     </TableRow>
 
 
