@@ -5,6 +5,7 @@
     android:background="@drawable/custom_border"
     android:stretchColumns="*"
     android:orientation="vertical" >
+    
     <TableRow>
         <TextView
             android:textSize="20sp"
@@ -15,13 +16,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_column="2"
-            android:layout_span="2"
+            android:layout_span="4"
             />
     </TableRow>
 
     <TableRow>
         <TextView
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:id="@+id/TextView_match_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,19 +30,23 @@
             android:textColor="@color/colorNeon"
             android:gravity="center"
             android:layout_column="0"
-            android:layout_span="6"
+            android:layout_span="8"
             />
     </TableRow>
 
     <TableRow>
         <Button
             android:id="@+id/btn_go_match"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_column="2"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_corner"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:padding="5dp"
+            android:textColor="@color/colorBlue"
+            android:layout_margin="5dp"
+            android:layout_column="3"
             android:layout_span="2"
-            android:text="go to chat" />
+            android:text="View Chat!" />
     </TableRow>
 
 </TableLayout>

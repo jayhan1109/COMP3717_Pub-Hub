@@ -20,8 +20,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.Date;
-
 import ca.bcit.pubhub.activities.ChatActivity;
 import ca.bcit.pubhub.activities.History;
 import ca.bcit.pubhub.adapters.MatchViewAdapter;
@@ -67,10 +65,6 @@ public class MatchListFragment extends ListFragment {
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
-    public void addItem(int c, int m, String t1, String t2, Date d) {
-        adapter.addItem(c, m, t1, t2, d);
-    }
-
     @Override
     public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
         Intent intent = new Intent(getActivity(), ChatActivity.class);
@@ -81,8 +75,14 @@ public class MatchListFragment extends ListFragment {
         history.setHistoryTime(ServerValue.TIMESTAMP);
         history.setMatchTime(item.get_date().toString());
         history.setMatchName(item.get_team1() + " vs " + item.get_team2());
+
         System.out.println(item.get_team1() + item.get_team2());
+
         intent.putExtra("chatId", Integer.toString(matchId));
+
+        intent.putExtra("team1_id", item.get_team1());
+        intent.putExtra("team2_id", item.get_team2());
+
         myRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {

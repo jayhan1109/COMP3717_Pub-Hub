@@ -7,6 +7,20 @@
     tools:context=".activities.Categories.BasketballActivity"
     android:orientation="vertical">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nanum_barunpen_bold"
+            android:textColor="@color/colorBlue"
+            android:textSize="20sp"
+            android:text="Basketball"/>
+    </androidx.appcompat.widget.Toolbar>
+
     <ListView
         android:id="@+id/basketball_listview"
         android:layout_width="wrap_content"

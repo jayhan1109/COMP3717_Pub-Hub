@@ -5,6 +5,53 @@
     android:orientation="vertical"
     android:weightSum="1">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:id="@+id/team1_id"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanum_barunpen_bold"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="20sp"
+                    android:layout_span="3"  />
+                <TextView
+                    android:id="@+id/vs_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/nanum_barunpen_bold"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="20sp"
+                    android:text="VS"
+                    android:layout_span="1" />
+                <TextView
+                    android:id="@+id/team2_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanum_barunpen_bold"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="20sp"
+
+                    android:layout_span="3"
+
+                    />
+            </TableRow>
+        </TableLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/my_recycler_view"
         android:scrollbars="vertical"
@@ -13,7 +60,7 @@
         android:layout_weight="1"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="1">
         <EditText
@@ -21,12 +68,14 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
-        <Button
-            android:layout_gravity="center_vertical"
-            android:id="@+id/Button_send"
-            android:layout_width="80dp"
-            android:layout_height="60dp"
-            android:text="send"/>
 
+        <ImageView
+            android:id="@+id/send_img"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/send"/>
     </LinearLayout>
+
 </LinearLayout>

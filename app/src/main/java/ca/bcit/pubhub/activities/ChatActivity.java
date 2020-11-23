@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,15 +28,11 @@ import ca.bcit.pubhub.R;
 import ca.bcit.pubhub.adapters.ChatAdapter;
 
 public class ChatActivity extends AppCompatActivity {
-    private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager layoutManager;
-    private List<ChatData> chatList;
     private String name;
     private String id;
-    private String chatId;
+    ImageView send_img;
     EditText EditText_chat;
-    Button Button_send;
     DatabaseReference myRef;
 
     @Override
@@ -42,18 +40,32 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+        TextView vs_id = findViewById(R.id.vs_id);
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         name = user.getEmail();
         int iend = name.indexOf("@");
         name = name.substring(0, iend);
         id = user.getUid();
 
-        Button_send = findViewById(R.id.Button_send);
+
+        send_img = findViewById(R.id.send_img);
         EditText_chat = findViewById(R.id.EditText_chat);
         Bundle extra = getIntent().getExtras();
-        chatId = extra.getString("chatId");
+        String chatId = extra.getString("chatId");
 
-        Button_send.setOnClickListener(new View.OnClickListener() {
+        String team1_name = extra.getString("team1_id");
+        String team2_name = extra.getString("team2_id");
+
+        if(team1_name == null || team2_name == null) {
+            vs_id.setText(extra.getString("history_name"));
+        } else {
+            TextView team1_id = findViewById(R.id.team1_id);
+            team1_id.setText(team1_name);
+            TextView team2_id = findViewById(R.id.team2_id);
+            team2_id.setText(team2_name);
+        }
+
+        send_img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String msg = EditText_chat.getText().toString();
@@ -68,20 +80,18 @@ public class ChatActivity extends AppCompatActivity {
             }
         });
 
-
-        recyclerView = findViewById(R.id.my_recycler_view);
+        RecyclerView recyclerView = findViewById(R.id.my_recycler_view);
         recyclerView.setHasFixedSize(true);
-        layoutManager = new LinearLayoutManager(this);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        chatList = new ArrayList<>();
+        List<ChatData> chatList = new ArrayList<>();
         mAdapter = new ChatAdapter(chatList, ChatActivity.this, name, id, recyclerView);
         recyclerView.setAdapter(mAdapter);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         myRef = database.getReference("message/" + chatId);
 
-//        myRef.setValue("Hello, World!");
         myRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {

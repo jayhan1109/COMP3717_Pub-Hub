@@ -9,10 +9,23 @@
     tools:context=".fragments.CategoryFragment">
 
     <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:gravity="center"
+            android:layout_column="0"
+            android:layout_span="5"
+            android:text="">
+        </TextView>
+    </TableRow>
+
+    <TableRow>
         <ListView
             android:id="@+id/category_listview"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_span="3"/>
     </TableRow>
 
 

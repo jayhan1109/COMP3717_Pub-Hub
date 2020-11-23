@@ -25,14 +25,13 @@ import ca.bcit.pubhub.utils.Match;
 import ca.bcit.pubhub.utils.MatchModel;
 
 public class EsportsListActivity extends ListActivity {
-    private int categories;
     MatchViewAdapter adapter;
     DatabaseReference myRef;
     String userId;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        categories = (Integer) getIntent().getExtras().get("categories");
+        int categories = (Integer) getIntent().getExtras().get("categories");
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         userId = user.getUid();
@@ -61,6 +60,7 @@ public class EsportsListActivity extends ListActivity {
         ListView esports_list = getListView();
         esports_list.setAdapter(adapter);
     }
+
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         System.out.println(userId);
@@ -74,6 +74,10 @@ public class EsportsListActivity extends ListActivity {
         history.setMatchName(item.get_team1() + " vs " + item.get_team2());
         System.out.println(item.get_team1() + item.get_team2());
         intent.putExtra("chatId", Integer.toString(matchId));
+
+        intent.putExtra("team1_id", item.get_team1());
+        intent.putExtra("team2_id", item.get_team2());
+
         myRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -95,4 +99,6 @@ public class EsportsListActivity extends ListActivity {
         myRef.push().setValue(history);
         startActivity(intent);
     }
+
+
 }

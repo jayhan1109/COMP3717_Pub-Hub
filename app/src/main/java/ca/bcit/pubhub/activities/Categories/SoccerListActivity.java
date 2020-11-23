@@ -74,6 +74,11 @@ public class SoccerListActivity extends ListActivity {
         history.setMatchName(item.get_team1() + " vs " + item.get_team2());
         System.out.println(item.get_team1() + item.get_team2());
         intent.putExtra("chatId", Integer.toString(matchId));
+
+        intent.putExtra("team1_id", item.get_team1());
+        intent.putExtra("team2_id", item.get_team2());
+
+
         myRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {

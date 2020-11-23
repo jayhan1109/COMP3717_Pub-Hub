@@ -75,11 +75,11 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
             {
                 Intent i = new Intent(context, ChatActivity.class);
                 i.putExtra("chatId", Integer.toString(matchId));
+                i.putExtra("history_name", history.getMatchName());
                 context.startActivity(i);
             }
         });
     }
-
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {

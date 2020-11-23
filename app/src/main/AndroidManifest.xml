@@ -4,26 +4,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.DayNight">
+        android:theme="@style/AppTheme">
 
         <activity android:name=".activities.ChatActivity" />
         <activity android:name=".activities.HomeActivity" />
 
-        <activity android:name=".activities.Categories.SoccerActivity"
-            android:label="Soccer" />
-        <activity android:name=".activities.Categories.EsportsActivity"
-            android:label="E-Sports"/>
-        <activity android:name=".activities.Categories.BasketballActivity"
-            android:label="Basketball"/>
-        <activity android:name=".activities.Categories.BaseballActivity"
-            android:label="Baseball"/>
-        <activity android:name=".activities.HistoryActivity"
-            android:label="History"/>
+        <activity android:name=".activities.Categories.SoccerActivity"/>
+        <activity android:name=".activities.Categories.EsportsActivity"/>
+        <activity android:name=".activities.Categories.BasketballActivity"/>
+        <activity android:name=".activities.Categories.BaseballActivity"/>
+        <activity android:name=".activities.HistoryActivity"/>
 
         <activity android:name=".activities.Categories.SoccerListActivity" />
         <activity android:name=".activities.Categories.BasketballListActivity" />

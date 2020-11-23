@@ -1597,6 +1597,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseball
@@ -1663,10 +1664,12 @@ drawable googleg_standard_color_18
 drawable history
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_main_background
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
 drawable match_border
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1697,8 +1700,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round_button
 drawable round_corner
 drawable round_corner2
+drawable send
 drawable soccer
 drawable tab_background
 drawable tab_background_selected
@@ -1718,7 +1723,6 @@ font yan
 id ALT
 id BOTTOM_END
 id BOTTOM_START
-id Button_send
 id CTRL
 id EditText_chat
 id FUNCTION
@@ -2077,6 +2081,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id send_code
+id send_img
 id send_sms_tos
 id shortcut
 id showCustom
@@ -2124,7 +2129,9 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id team1
+id team1_id
 id team2
+id team2_id
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2171,6 +2178,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id vs_id
 id welcome_back_email_link_body
 id welcome_back_idp_button
 id welcome_back_idp_prompt
@@ -2346,7 +2354,6 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout row_chat
 layout row_history
-layout sample
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2367,6 +2374,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_main
+mipmap ic_main_foreground
+mipmap ic_main_round
 plurals fui_error_weak_password
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3335,7 +3345,6 @@ style Widget_MaterialProgressBar_ProgressBar_NoPadding
 style Widget_MaterialProgressBar_ProgressBar_Small
 style Widget_MaterialProgressBar_ProgressBar_Small_NoPadding
 style Widget_Support_CoordinatorLayout
-style custom_font
 style tab_text
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
