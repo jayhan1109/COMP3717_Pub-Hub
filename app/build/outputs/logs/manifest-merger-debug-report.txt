@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.3.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/77d6481d544789b159f2afa2e3a47549/jetified-firebase-ui-auth-6.3.0/AndroidManifest.xml:2:1-109:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/tyler/.gradle/caches/transforms-2/files-2.1/d0414079c42dd671ddb1f179494eb066/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] /Users/tyler/.gradle/caches/transforms-2/files-2.1/39b0a42cf105417fa1a4a4ae0c46d8b8/material-1.2.1/AndroidManifest.xml:17:1-24:12
@@ -74,25 +74,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/tyler/.gra
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/d4465896c4662edfdecbd8826f5767b4/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/322c4f0d35a3e589252b3ec955278361/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/d16c055fb911a7e235b9e6af8aa6e581/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:5:5-33:19
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:5:5-32:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.3.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/77d6481d544789b159f2afa2e3a47549/jetified-firebase-ui-auth-6.3.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.3.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/77d6481d544789b159f2afa2e3a47549/jetified-firebase-ui-auth-6.3.0/AndroidManifest.xml:15:5-107:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/tyler/.gradle/caches/transforms-2/files-2.1/d0414079c42dd671ddb1f179494eb066/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -150,7 +150,7 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/tyler/.gradle/ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/tyler/.gradle/caches/transforms-2/files-2.1/33718701d713ca3e83325f7dda0e045d/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
 		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:8:9-41
 	android:icon
@@ -158,65 +158,65 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/tyler/.gradle/ca
 	android:allowBackup
 		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:10:9-40
 activity#ca.bcit.pubhub.activities.ChatActivity
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:9-61
+	android:name
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:19-58
+activity#ca.bcit.pubhub.activities.HomeActivity
 ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:9-61
 	android:name
 		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:19-58
-activity#ca.bcit.pubhub.activities.HomeActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:9-61
-	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:19-58
 activity#ca.bcit.pubhub.activities.Categories.SoccerActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:9-73
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:9-73
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:19-71
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:19-71
 activity#ca.bcit.pubhub.activities.Categories.EsportsActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:9-74
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:9-74
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:19-72
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:19-72
 activity#ca.bcit.pubhub.activities.Categories.BasketballActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:9-77
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:9-77
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:19-75
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:19-75
 activity#ca.bcit.pubhub.activities.Categories.BaseballActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:9-75
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:9-75
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:19-73
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:19-73
 activity#ca.bcit.pubhub.activities.HistoryActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:20:9-63
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:20:19-61
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:19-61
 activity#ca.bcit.pubhub.activities.Categories.SoccerListActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:9-78
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:21:9-78
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:19-75
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:21:19-75
 activity#ca.bcit.pubhub.activities.Categories.BasketballListActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:9-82
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:9-82
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:19-79
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:19-79
 activity#ca.bcit.pubhub.activities.Categories.BaseballListActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:9-80
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:9-80
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:19-77
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:19-77
 activity#ca.bcit.pubhub.activities.Categories.EsportsListActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:9-79
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:9-79
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:19-76
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:19-76
 activity#ca.bcit.pubhub.activities.LoginActivity
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:26:9-32:20
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:26:19-59
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml

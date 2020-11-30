@@ -24,7 +24,7 @@
 14-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/tyler/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
 15
 16    <application
-16-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:5:5-33:19
+16-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:5:5-32:19
 17        android:allowBackup="true"
 17-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -36,55 +36,55 @@
 22        android:label="@string/app_name"
 22-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:8:9-41
 23        android:supportsRtl="true"
-23-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:10:9-35
+23-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:9:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:11:9-40
+25-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:10:9-40
 26        <activity android:name="ca.bcit.pubhub.activities.ChatActivity" />
-26-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:9-61
-26-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:19-58
+26-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:9-61
+26-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:12:19-58
 27        <activity android:name="ca.bcit.pubhub.activities.HomeActivity" />
-27-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:9-61
-27-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:14:19-58
+27-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:9-61
+27-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:13:19-58
 28        <activity android:name="ca.bcit.pubhub.activities.Categories.SoccerActivity" />
-28-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:9-73
-28-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:19-71
+28-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:9-73
+28-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:15:19-71
 29        <activity android:name="ca.bcit.pubhub.activities.Categories.EsportsActivity" />
-29-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:9-74
-29-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:19-72
+29-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:9-74
+29-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:16:19-72
 30        <activity android:name="ca.bcit.pubhub.activities.Categories.BasketballActivity" />
-30-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:9-77
-30-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:19-75
+30-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:9-77
+30-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:17:19-75
 31        <activity android:name="ca.bcit.pubhub.activities.Categories.BaseballActivity" />
-31-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:9-75
-31-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:19-73
+31-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:9-75
+31-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:18:19-73
 32        <activity android:name="ca.bcit.pubhub.activities.HistoryActivity" />
-32-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:20:9-63
-32-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:20:19-61
+32-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:9-63
+32-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:19:19-61
 33        <activity android:name="ca.bcit.pubhub.activities.Categories.SoccerListActivity" />
-33-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:9-78
-33-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:19-75
+33-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:21:9-78
+33-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:21:19-75
 34        <activity android:name="ca.bcit.pubhub.activities.Categories.BasketballListActivity" />
-34-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:9-82
-34-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:19-79
+34-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:9-82
+34-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:22:19-79
 35        <activity android:name="ca.bcit.pubhub.activities.Categories.BaseballListActivity" />
-35-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:9-80
-35-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:19-77
+35-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:9-80
+35-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:23:19-77
 36        <activity android:name="ca.bcit.pubhub.activities.Categories.EsportsListActivity" />
-36-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:9-79
-36-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:19-76
+36-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:9-79
+36-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:24:19-76
 37        <activity android:name="ca.bcit.pubhub.activities.LoginActivity" >
-37-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:26:9-32:20
-37-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:26:19-59
+37-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:9-31:20
+37-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:25:19-59
 38            <intent-filter>
-38-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:27:13-31:29
+38-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:26:13-30:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:28:17-69
-39-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:28:25-66
+39-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:27:17-69
+39-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:27:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:30:17-77
-41-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:30:27-74
+41-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:29:17-77
+41-->/Users/tyler/AndroidStudioProjects/COMP3717_Pub-Hub/app/src/main/AndroidManifest.xml:29:27-74
 42            </intent-filter>
 43        </activity>
 44
